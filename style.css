@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+.alert{
+    width: 350px;
+    height: 100px;
+    z-index: 100;
+    position: relative;
+    top: 300px;
+    right: 600px;
+}
+.spiner-border{
+    z-index: 100;
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+nav{
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+}
+li{
+    list-style: none;
+}
+.main{
+    position: relative;
+    right: 250px;
+    top: 80px;
+}
+.navbar-brend{
+    background-color: rgb(183, 175, 255);
+}
+.nav-pills{
+    position: relative;
+    bottom: 37px;
+    z-index: 20;
+    left: 230px;
+}
+.pradaja{
+    position: relative;
+    right: 250px;
+    top: 110px;
+}
+.bloks{
+    width: 980px;
+    height: 500px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+.blok-hidden{
+width: 285px;
+
+} 
